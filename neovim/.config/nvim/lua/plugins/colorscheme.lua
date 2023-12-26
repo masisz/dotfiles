@@ -11,18 +11,8 @@ return {
 		end,
 	},
 	{
-		"folke/tokyonight.nvim",
-		-- "rebelot/kanagawa.nvim",
-		lazy = true,
-		priority = 1000,
-		opts = { style = "moon" },
-	},
-	{
 		"rebelot/kanagawa.nvim",
 		lazy = true,
-#		opts = {
-#			transparent = true
-#		}
+		opts = { transparent = true },
 	},
-
 }
