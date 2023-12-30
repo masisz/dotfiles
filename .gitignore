@@ -1,12 +1,4 @@
-#/*
-#/.*
 
-!/.gitignore
-!/README.md
-!/LICENSE
-!/.zshrc
-!/.config/**
-!/.config/nvim/**
-!/.config/nvim/lua/init.lua
-!/.config/nvim/lua/config/*
-!/.config/nvim/lua/plugins/*
+/goneovim/.config/goneovim/sessions/**
+/**/lazyvim.json
+/**/lazy-lock.json
