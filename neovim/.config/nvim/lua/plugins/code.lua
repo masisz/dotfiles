@@ -4,13 +4,16 @@ return {
 		{
 			"nvim-telescope/telescope-fzf-native.nvim",
 			build = "make",
+			config = function()
+				require("telescope").load_extension("fzf")
+			end,
 		},
 		"nvim-telescope/telescope-file-browser.nvim",
 	},
 	keys = function()
 		return {
 			{
-				"<leader>fP",
+				"<leader>fp",
 				function()
 					require("telescope.builtin").find_files({
 						cwd = require("lazy.core.config").options.root,
