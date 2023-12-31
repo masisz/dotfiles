@@ -78,7 +78,7 @@ return {
 				desc = "Lists Function names from TreeSitter",
 			},
 			{
-				"<leader>fp",
+				"<leader>e",
 				function()
 					local telescope = require("telescope")
 
