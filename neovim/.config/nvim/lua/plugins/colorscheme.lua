@@ -6,7 +6,7 @@ return {
 		-- opts = { style = "moon" },
 		opts = function()
 			return {
-				transparent = false,
+				transparent = true,
 			}
 		end,
 	},
