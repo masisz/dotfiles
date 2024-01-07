@@ -1,26 +1,29 @@
 # dotfiles
 My Dotfiles. Mainly Ruby and Web Programming are assumed.
 
-## My Profile
-* I'm NeoVim(vim) beginner. Please let me know if there is a better way todo it with Ruby coding.
-
-
 ## Environment
-* Premise MacOS Only. Also consider Windows environment.
+* I'm NeoVim(vim) beginner. Please let me know if there is a better way todo it with Ruby coding.
+* Mac Book Pro 2020(Intel).
+* Apple JIS(Japanese Keyboard) Layout.
 
-### Dotfiles Install via Stow
-* Premise [GNU Stow](https://www.gnu.org/software/stow/)
+## DotFiles
 
-### Neovim config base from LazyVim
-* Premise Neovim customize Based from [LazyVim](https://www.lazyvim.org)
+### Deploy
+* Dotfiles Deploy from [GNU Stow](https://www.gnu.org/software/stow/)
+
+### Editor
+* Neovim config base from [LazyVim](https://www.lazyvim.org)
+
+### Shell
+* PluginManager via [zsh-users/antigen](https://github.com/zsh-users/antigen)
 
 ### Terminal
-* iTerm2 & tmux
+* [iTerm2](https://iterm2.com/)
+* [tmux](https://github.com/tmux/tmux/wiki)
 
-### PC 
-* Mac Book Pro 2020(Intel)
-
-### Keyboard Layout
-* Apple JIS Keyboard.
+### Utility
+* [KarabinerElements](https://karabiner-elements.pqrs.org)
 
 
+## ❤️　Thanks you for Software Developers! 
+* Thank you for the Software that makes my enviromnent better!
