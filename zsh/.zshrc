@@ -32,6 +32,7 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 alias mkdir='mkdir -p'
+alias vim='nvim'
 
 # plugin manager antigen
 source $HOME/antigen.zsh
@@ -44,5 +45,4 @@ antigen bundle rupa/z z.sh
 antigen theme romkatv/powerlevel10k
 antigen apply
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
