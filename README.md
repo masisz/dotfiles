@@ -15,6 +15,7 @@ My Dotfiles. Mainly Ruby and Web Programming are assumed.
 * Neovim config base from [LazyVim](https://www.lazyvim.org)
 
 ### Shell
+* login shell zsh(Mac OS Default shell) 
 * PluginManager via [zsh-users/antigen](https://github.com/zsh-users/antigen)
 
 ### Terminal
@@ -22,7 +23,7 @@ My Dotfiles. Mainly Ruby and Web Programming are assumed.
 * [tmux](https://github.com/tmux/tmux/wiki)
 
 ### Utility
-* [KarabinerElements](https://karabiner-elements.pqrs.org)
+* keyremap tool for [KarabinerElements](https://karabiner-elements.pqrs.org)
 
 
 ## ❤️　Thanks you for Software Developers! 
