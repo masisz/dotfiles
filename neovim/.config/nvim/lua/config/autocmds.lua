@@ -5,6 +5,7 @@ function Disable()
 	end
 end
 
+-- IME OFF to back to normal mode.
 vim.api.nvim_create_augroup("ime", {})
 vim.api.nvim_create_autocmd("insertleave", {
 	group = "ime",
