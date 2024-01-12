@@ -1,6 +1,6 @@
 function Disable()
 	if vim.fn.has("mac") == 1 then
-		vim.fn.system("im-select com.apple.keylayout.US")
+		vim.fn.system("im-select com.apple.keylayout.ABC")
 		-- print("IME OFF")
 	end
 end
