@@ -110,7 +110,6 @@ return {
 				highlight = "sh",
 				replace = "sr",
 				update_n_lines = "sn",
-
 				suffix_last = "l",
 				suffix_next = "n",
 			},
