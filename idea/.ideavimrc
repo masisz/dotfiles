@@ -1,0 +1,78 @@
+" memo
+" you can find a list of commands here: https://jb.gg/h38q75
+" find more examples here: https://jb.gg/share-ideavimrc
+" github https://github.com/jetbrains/ideavim
+" TIPS. find action name.
+"   1. shift shift --> IdeaVim Track Action Ids --> OFF --> ON
+"   2. :actionlist
+
+let mapleader = " "
+
+" options
+set belloff     = all
+set clipboard   = unnamed
+set so          = 5
+set scrolloff   = 5
+set laststatus  = 2
+set ignorecase
+set relativenumber
+set expandtab
+set incsearch
+set sidescrolloff
+
+" enable plugins
+set commentary
+set easymotion
+set NERDTree
+set surround
+set which-key
+set vim-highlightedyank
+
+" disable Ex mode.
+map Q gq
+
+" Prevent character delete from being registered in the register.
+nnoremap x "_x
+vnoremap x "_x
+
+" escape key
+inoremap <silent> jj <ESC>
+inoremap <ESC><ESC> <ESC>
+
+" buffers
+nnoremap <silent> <s-l> :bnext<CR>
+nnoremap <silent> <s-h> :bprev<CR>
+
+" windows
+map <leader>w| :action SplitVertically<CR>
+map <leader>w- :action SplitHorizontally<CR>
+map <leader>wd :action Unsplit<CR>
+map <leader>wh :action HideActiveWindow<CR>
+map <silent> <c-l> :action NextSplitter<CR>
+map <silent> <c-h> :action PrevSplitter<CR>
+
+" selection all
+nnoremap <c-a> gg<s-v>G
+
+" IDEA specific
+set ideajoin
+set ideastatusicon = gray
+
+" Finder
+map <leader>ff :action GotoFile<CR>
+map <leader>fg :action FindInPath<CR>
+map <leader>fb :Action Switcher<CR>
+
+" file explorer
+map <leader>e  :NERDTree<CR>
+map <leader>et :NERDTreeToggle<CR>
+map <leader>ef :NERDTreeFind<CR>
+map <leader>ed :NERDTreeClose<CR>
+
+" focus terminal
+map <leader>ft :action ActivateTerminalToolWindow<CR>
+
+" git
+map <leader>gg :action CheckinProject<CR>
+
+
