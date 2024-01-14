@@ -44,10 +44,10 @@ nnoremap <silent> <s-l> :bnext<CR>
 nnoremap <silent> <s-h> :bprev<CR>
 
 " windows
-map <leader>w| :action SplitVertically<CR>
-map <leader>w- :action SplitHorizontally<CR>
-map <leader>wd :action Unsplit<CR>
-map <leader>wh :action HideActiveWindow<CR>
+map <leader>w|     :action SplitVertically<CR>
+map <leader>w-     :action SplitHorizontally<CR>
+map <leader>wd     :action Unsplit<CR>
+map <leader>wh     :action HideActiveWindow<CR>
 map <silent> <c-l> :action NextSplitter<CR>
 map <silent> <c-h> :action PrevSplitter<CR>
 
@@ -58,10 +58,12 @@ nnoremap <c-a> gg<s-v>G
 set ideajoin
 set ideastatusicon = gray
 
-" Finder
+" finder
 map <leader>ff :action GotoFile<CR>
 map <leader>fg :action FindInPath<CR>
-map <leader>fb :Action Switcher<CR>
+map <leader>fb :action Switcher<CR>
+map <leader>fr :action RecentFiles<CR>
+map <leader>fl :action RecentLocations<CR>
 
 " file explorer
 map <leader>e  :NERDTree<CR>
@@ -75,4 +77,18 @@ map <leader>ft :action ActivateTerminalToolWindow<CR>
 " git
 map <leader>gg :action CheckinProject<CR>
 
+" code navigation
+nnoremap <leader>gd :action GoToDeclaration<CR>
+nnoremap <leader>gi :action GoToImplementation<CR>
+nnoremap <leader>gf :action Forward<CR>
+nnoremap <leader>gb :action Back<CR>
+nnoremap <leader>ca :action ShowIntentionActions<CR>
+nnoremap <leader>ge :action GotoNextError<CR>
+nnoremap <leader>gE :action GotoPreviousError<CR>
+
+" show navigation
+nnoremap <leader>nh :action CallHierarchy<CR>
+nnoremap <leader>nb :action ShowNavBar<CR>
+nnoremap <leader>nu :action FindUsages<CR>
+nnoremap <leader>nr :action Refactorings.QuickListPopupAction<CR>
 
