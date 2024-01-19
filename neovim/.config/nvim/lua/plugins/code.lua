@@ -4,6 +4,7 @@ return {
 		opts = function(_, opts)
 			vim.list_extend(opts.ensure_installed, {
 				"bash",
+				"c",
 				"css",
 				"csv",
 				"gitignore",
@@ -14,6 +15,8 @@ return {
 				"markdown",
 				"markdown_inline",
 				"ruby",
+				"rust",
+				"scss",
 				"sql",
 				"xml",
 				"yaml",
@@ -38,6 +41,10 @@ return {
 		"williamboman/mason.nvim",
 		opts = function(_, opts)
 			vim.list_extend(opts.ensure_installed, {
+				"clangd",
+				"html-lsp",
+				"rust-analyzer",
+				"neocmakelsp",
 				"stylua",
 				"solargraph",
 				"shellcheck",
