@@ -5,10 +5,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-# Ruby rbenv 
+# Ruby rbenv
 if [ -e "$HOME/.rbenv" ]; then
   eval "$(rbenv init - zsh)"
 fi
+
+# Rust
+source "$HOME/.cargo/env"
 
 export LANG=ja_JP.UTF-8
  
