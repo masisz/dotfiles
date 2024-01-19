@@ -82,7 +82,6 @@ nnoremap <leader>gd :action GoToDeclaration<CR>
 nnoremap <leader>gi :action GoToImplementation<CR>
 nnoremap <leader>gf :action Forward<CR>
 nnoremap <leader>gb :action Back<CR>
-nnoremap <leader>ca :action ShowIntentionActions<CR>
 nnoremap <leader>ge :action GotoNextError<CR>
 nnoremap <leader>gE :action GotoPreviousError<CR>
 
@@ -92,3 +91,9 @@ nnoremap <leader>nb :action ShowNavBar<CR>
 nnoremap <leader>nu :action FindUsages<CR>
 nnoremap <leader>nr :action Refactorings.QuickListPopupAction<CR>
 
+" action
+nnoremap <leader>ca :action ShowIntentionActions<CR>
+nnoremap <leader>ct :action RunAnything<CR>
+nnoremap <leader>cd :action Debug<CR>
+nnoremap <leader>cr :action Run<CR>
+nnoremap <leader>cs :action Stop<CR>
