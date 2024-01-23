@@ -2,6 +2,10 @@ return {
 	{
 		"rebelot/kanagawa.nvim",
 		lazy = true,
-		opts = { transparent = true },
+		opts = function()
+			return {
+				transparent = true,
+			}
+		end,
 	},
 }
