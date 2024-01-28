@@ -42,25 +42,18 @@ return {
 		opts = function(_, opts)
 			vim.list_extend(opts.ensure_installed, {
 				"clangd",
+				"css-lsp",
+				"emmet-ls",
 				"html-lsp",
-				"rust-analyzer",
 				"neocmakelsp",
 				"stylua",
 				"solargraph",
 				"shellcheck",
 				"shfmt",
 				"tailwindcss-language-server",
-				"css-lsp",
+				"typescript-language-server",
 			})
 		end,
-	},
-	{
-		"neovim/nvim-lspconfig",
-		opts = {
-			servers = {
-				solargraph = {},
-			},
-		},
 	},
 	{
 		"L3MON4D3/LuaSnip",
