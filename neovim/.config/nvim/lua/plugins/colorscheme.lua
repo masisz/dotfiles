@@ -8,4 +8,13 @@ return {
 			}
 		end,
 	},
+	{
+		"catppuccin",
+		lazy = true,
+		opts = function()
+			return {
+				transparent_background = true,
+			}
+		end,
+	},
 }
