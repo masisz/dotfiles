@@ -17,4 +17,13 @@ return {
 			}
 		end,
 	},
+	{
+		"rcarriga/nvim-notify",
+		opts = function()
+			return {
+				timeout = 3000,
+				background_colour = "#000000",
+			}
+		end,
+	},
 }
