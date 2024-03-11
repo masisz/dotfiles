@@ -16,6 +16,6 @@ vim.opt.smarttab = true
 vim.opt.swapfile = false
 vim.opt.tabstop = 2
 vim.opt.title = true
-vim.opt.mouse = ""
+vim.opt.mouse = "a"
 vim.opt.splitbelow = true
 vim.opt.splitright = true
