@@ -2,3 +2,4 @@
 /goneovim/.config/goneovim/sessions/**
 /**/lazyvim.json
 /**/lazy-lock.json
+tmux/.config/tmux/plugins
